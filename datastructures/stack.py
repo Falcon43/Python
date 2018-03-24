@@ -64,9 +64,12 @@ Output:
 
 []
 Your bucket stack is Empty? True
+Size:  1
 ['Victoria Falls']
 Your bucket stack is Empty? False
+Size:  0
 []
+Size:  11
 ['Bora Bora', 'Kauai, Hawaii', 'Longsheng', 'Amazon River', 'Rainbow Mountains of Zhangye Danxia, China', 'Railay, Thailand ', 'Neuschwanstein', 'Aurora - Iceland', 'Antarctica', 'Yellowstone National Park', 'Petra, Jordan']
 Petra, Jordan
 
