@@ -78,6 +78,11 @@ print("\n\n Height of tree:  "+str(height))
 print("\n\n Tree:")
 print_tree(r, "\t"*20)
 
+
+
+
+
+
 """"
 Output:
 
