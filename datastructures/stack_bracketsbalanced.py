@@ -26,7 +26,7 @@ def is_balanced(code_string):
 
 
 
-
+#  Check is code string is balanced wrt brackets
 
 print(is_balanced("}{"))
 print(is_balanced("{[<>]}"))
