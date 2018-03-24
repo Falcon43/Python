@@ -34,10 +34,12 @@ bucket_stack = Stack()
 bucket_stack.print_stack()
 print("Your bucket stack is Empty? "+str(bucket_stack.isempty()))
 bucket_stack.push("Victoria Falls")
+print("Size:  "+str(bucket_stack.size()))
 bucket_stack.print_stack()
 print("Your bucket stack is Empty? "+str(bucket_stack.isempty()))
 bucket_stack.pop()
 bucket_stack.pop()
+print("Size:  "+str(bucket_stack.size()))
 bucket_stack.print_stack()
 bucket_stack.push("Bora Bora")
 bucket_stack.push("Kauai, Hawaii")
@@ -50,9 +52,10 @@ bucket_stack.push("Aurora - Iceland")
 bucket_stack.push("Antarctica")
 bucket_stack.push("Yellowstone National Park")
 bucket_stack.push("Petra, Jordan")
-
+print("Size:  "+str(bucket_stack.size()))
 bucket_stack.print_stack()
 bucket_stack.peak()
+
 
 
 """
