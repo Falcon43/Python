@@ -24,12 +24,12 @@ def insert(root,node):
 
 
 
-
 def inorder(root):
     if root:
         inorder(root.left)
         print(root.value)
         inorder(root.right)
+
 
 
 
@@ -49,12 +49,12 @@ def height_tree(root,height):
 
 
 
+
 def print_tree(root,tabs):
     if root:
         print(tabs+str(root.value))
         print_tree(root.left,tabs[5:])
         print_tree(root.right,tabs+("\t"*5))
-
 
 
 
@@ -69,16 +69,16 @@ insert(r,node(60))
 insert(r,node(80))
 insert(r,node(65))
 
+
 print(" In order: ")
 inorder(r)
+
 height = 0
 height = height_tree(r,height)
 print("\n\n Height of tree:  "+str(height))
 
 print("\n\n Tree:")
 print_tree(r, "\t"*20)
-
-
 
 
 
@@ -101,14 +101,14 @@ Output:
 
 
  Tree:
-																				50
-															30
-										20
-																				40
-																									70
-																				60
-																									65
-																														80
+										50
+					30
+20
+										40
+															70
+										60
+															65
+																				80
 
 
 
