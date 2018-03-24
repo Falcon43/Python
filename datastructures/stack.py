@@ -53,3 +53,19 @@ bucket_stack.push("Petra, Jordan")
 
 bucket_stack.print_stack()
 bucket_stack.peak()
+
+
+"""
+Output:
+
+
+[]
+Your bucket stack is Empty? True
+['Victoria Falls']
+Your bucket stack is Empty? False
+[]
+['Bora Bora', 'Kauai, Hawaii', 'Longsheng', 'Amazon River', 'Rainbow Mountains of Zhangye Danxia, China', 'Railay, Thailand ', 'Neuschwanstein', 'Aurora - Iceland', 'Antarctica', 'Yellowstone National Park', 'Petra, Jordan']
+Petra, Jordan
+
+
+"""
