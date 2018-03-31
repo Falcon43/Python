@@ -2,7 +2,7 @@ import urllib.parse , ssl
 from OpenSSL import crypto   # pip install pyopenssl
 
 
-url = "https://www.google.co.in/"
+url = "https://www.google.co.in/"      # must be an https url
 spliturl = urllib.parse.urlsplit(url)
 HOST = spliturl.hostname
 if not spliturl.port == None:
