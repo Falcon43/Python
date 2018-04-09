@@ -66,3 +66,20 @@ def fibo_iterative(n):
 start = time.time()
 print("Fibonacci number using ITERATION at ",num," is ",fibo_iterative(num))
 print((time.time()-start)*1000)
+
+
+
+
+
+# recursive fibonacci with memory
+memo = {0:0,1:1}
+def fibo_memory(n):
+    if not n in memo:
+        memo[n] = fibo_memory(n-1) + fibo_memory(n-2)
+    return memo[n]
+
+
+
+start = time.time()
+print("Fibonacci number using RECURSION  with MEMORY at ",num," is ",fibo_memory(num))
+print((time.time()-start)*1000)
