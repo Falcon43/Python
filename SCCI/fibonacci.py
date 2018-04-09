@@ -14,3 +14,11 @@ def fibo_iterative(n):
        a,b = b,a+b
    return a
 
+
+
+# recursive fibonacci with memory
+memo = {0:0,1:1}
+def fibo_memory(n):
+    if not n in memo:
+        memo[n] = fibo_memory(n-1) + fibo_memory(n-2)
+    return memo[n]
