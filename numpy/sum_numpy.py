@@ -2,11 +2,11 @@ import numpy as np
 
 W = np.random.randn(4, 4, 3)
 b = np.random.randn(1, 1, 1)
-s = np.sum(W)
+s = np.sum(W)   # np.sum() gives integer
 print(s)
-print(b)
+print(b)        # b is still array
 print(s+b)
-print(float(s+b))
+print(float(s+b))   # need to use float to cast array to scalar
 print( s + float(b) )
 
 """
