@@ -1,0 +1,30 @@
+
+message = input("Enter message : ").upper()
+encrypted = ""
+decrypted = ""
+
+print("\nOriginal Message:  "+message)
+
+for letter in message:
+    if letter == " ":
+        encrypted += letter
+    elif ord(letter)+5 > ord("Z"):
+        encrypted += chr(  ord(letter) + 5 - 26  )
+    else:
+        encrypted += chr(ord(letter)+5)
+
+print("Encrypted message: "+encrypted)
+
+
+for letter in encrypted:
+    if letter == " ":
+        decrypted += letter
+    elif ord(letter)-5  < ord("A"):
+        decrypted += chr( ord(letter)-5+26 )
+    else:
+        decrypted += chr(ord(letter)-5)
+
+print("Decrypted message: "+decrypted)
+
+
+""""INPUT:    ZXWYV"""
